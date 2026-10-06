@@ -63,36 +63,30 @@ ny-energy-demand-insights/
 
 ## Key Findings
 
-Analysis of daily NYISO electricity demand and temperature data from **January 2022 to October 2026** reveals a clear relationship between weather extremes and electricity demand in New York State.
+Analysis of daily NYISO electricity demand and temperature data (January 2022 – October 2026) shows that temperature extremes are the main driver of demand variation in New York.
 
-### 1. Temperature Extremes Are the Primary Driver of Demand Spikes
+**1. Demand follows a clear U-shaped pattern with temperature**
 
-Electricity demand shows a strong **U-shaped relationship with temperature**, with demand increasing during both hot and cold weather.
+Average daily demand is highest at both temperature extremes:
 
-- **Hot days** (maximum temperature > 80°F): Average demand ≈ **19,858 MW**
-- **Cold days** (maximum temperature < 40°F): Average demand ≈ **18,349 MW**
-- **Mild/Warm days** (40–80°F): Average demand ≈ **16,100–16,200 MW**
+- **90°F and above**: 22,860 MW
+- **Below 30°F**: 19,279 MW
+- **Mild weather (50–70°F)**: ~15,200–15,500 MW (lowest demand)
 
-Demand rises significantly during both **summer heatwaves**, driven primarily by air-conditioning load, and **winter cold snaps**, when heating demand increases.
+This U-shape reflects increased air-conditioning load in summer and heating load in winter.
 
-### 2. Highest Demand Days Occurred During Summer Heatwaves
+**2. Summer and Winter have the highest average demand**
 
-The peak demand day in the dataset was **June 25, 2025**, when average system demand reached **26,554 MW**.
+| Season | Average Demand (MW) |
+| ------ | ------------------- |
+| Summer | 19,523              |
+| Winter | 18,030              |
+| Fall   | 16,005              |
+| Spring | 15,249              |
 
-On that day:
+**3. Hot days significantly increase demand**
 
-- **New York City:** 96°F
-- **Albany:** 92°F
-- **Buffalo:** 85°F
+Days with maximum temperature above 80°F average **19,858 MW**, compared to **16,580 MW** on all other days; a difference of roughly 3,300 MW.
 
-Other high-demand days, including **June 24, 2025** and **July 3, 2026**, followed the same pattern: exceptionally high temperatures across New York coincided with some of the highest system demand levels.
-
-### 3. Mild Weather Produces the Lowest Demand
-
-Days with maximum temperatures between **40°F and 80°F** consistently show the lowest average electricity demand, at approximately **16,100–16,200 MW**.
-
-These conditions represent the **shoulder seasons**, when neither heating nor cooling loads are dominant.
-
-### Operational Takeaway
-
-The analysis suggests that **temperature extremes should be a primary variable for monitoring electricity demand risk**. In particular, widespread summer heat events can create the highest system loads, while severe winter cold can also substantially increase demand.
+**4. Overall linear correlation is low (0.166)**  
+Because the relationship is non-linear (U-shaped), a simple correlation understates the true impact of temperature extremes.
