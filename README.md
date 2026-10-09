@@ -86,7 +86,7 @@ This U-shape reflects increased air-conditioning load in summer and heating load
 
 **3. Hot days significantly increase demand**
 
-Days with maximum temperature above 80°F average **19,858 MW**, compared to **16,580 MW** on all other days; a difference of roughly 3,300 MW.
+Days with maximum temperature above 80°F average **19,858 MW**, compared to **16,580 MW** on all other days — a difference of roughly 3,300 MW.
 
 **4. Overall linear correlation is low (0.166)**  
 Because the relationship is non-linear (U-shaped), a simple correlation understates the true impact of temperature extremes.

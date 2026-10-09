@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-09T16:54:13.467738",
+  "results": [
+    {
+      "name": "EIA",
+      "status": "OK",
+      "records_returned": 5,
+      "sample_period": "2024-01-02T23"
+    },
+    {
+      "name": "NOAA",
+      "status": "OK",
+      "records_returned": 10,
+      "sample_date": "2024-01-01T00:00:00"
+    }
+  ],
+  "ok_count": 2,
+  "fail_count": 0
+}
